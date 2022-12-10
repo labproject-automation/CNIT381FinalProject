@@ -1,5 +1,8 @@
 # CNIT381FinalProject
 For This project we will be building a Webex automated Chatbox that will communicate with our two routers (CSR1000v).
+For our Netmiko skill we will have the Chatbox show ip route and show crypto isakmp policy
+For our RESCONF skill we will have the Chatbox show system info
+For our Ansible skill we will have the Chatbox show ip int br
 
 ## Setup Instructions 
 ### Step 1
@@ -18,7 +21,7 @@ You will now want to save the Bot Access Token in a text file, you will need thi
 ![image](https://user-images.githubusercontent.com/119529085/206284448-687ca637-011f-4b89-980c-bbb223e49044.png)
 
 ### Step 4
-Download The following: 381Bot.py, BotSkills.py, ansible.cfg, inventory.txt, and routers.py to a folder directory on your machine. For the program to run successfully on the machine you are running the program make sure you have python 3.8.15 or later installed. 
+Download The following: 381Bot.py, useful_skils.py, useless_skills.py inventory.txt, ansible.cfg and routers.py to a folder directory on your machine. For the program to run successfully on the machine you are running the program make sure you have python 3.8.15 or later installed. 
 For the two routers (HQ and Branch) you will follow the configuration listed in CSR1.txt and CSR2.txt, this will create the VPN connection. (Note that CSR1 is HQ router)
 
 ### Step 5
@@ -36,7 +39,7 @@ This will create a connection so Webex and python can communicate to each other.
 ![image](https://user-images.githubusercontent.com/119529085/206804500-65fc7bb1-cfd4-4211-9280-1e6a552854e1.png)
 
 ### Step 7
-Make sure the router addresses are the same as the addresses used in our python files. You may need to change the ip addresses in the routers.py, inventory.txt, and BotSkills.py. This will all depend on what addresses your routers have obtained. 
+Make sure the router addresses are the same as the addresses used in our python files. You may need to change the ip addresses in the routers.py, inventory.txt, and useful_skills.py. This will all depend on what addresses your routers have obtained. 
 
 ### Step 8
 Finally, make sure you have saved all relevant files and run the 381Bot.py on a terminal, follow the command below to run it. The bot should now be running, now go to https://teams.webex.com and message the bot, you should receive a reply.
@@ -46,6 +49,9 @@ Finally, make sure you have saved all relevant files and run the 381Bot.py on a 
 
 ## Congrats you are now done!!! 
 You should now be able to successfully be able to talk with the bot. If you followed our code, it should look like the picture below.
+
+![image](https://user-images.githubusercontent.com/119529085/206818715-eed42d0d-46a3-4dff-8fc6-8c4a5ab50014.png)
+
 
  
 
