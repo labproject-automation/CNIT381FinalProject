@@ -21,7 +21,7 @@ You will now want to save the Bot Access Token in a text file, you will need thi
 ![image](https://user-images.githubusercontent.com/119529085/206284448-687ca637-011f-4b89-980c-bbb223e49044.png)
 
 ### Step 4
-Download The following: 381Bot.py, useful_skils.py, useless_skills.py inventory.txt, ansible.cfg and routers.py to a folder directory on your machine. For the program to run successfully on the machine you are running the program make sure you have python 3.8.15 or later installed. 
+Download The following: 381Bot.py, useful_skils.py, useless_skills.py, myparamiko.py, inventory.txt, ansible.cfg and routers.py to a folder directory on your machine. For the program to run successfully on the machine you are running the program make sure you have python 3.8.15 or later installed. 
 For the two routers (HQ and Branch) you will follow the configuration listed in CSR1.txt and CSR2.txt, this will create the VPN connection. (Note that CSR1 is HQ router)
 
 ### Step 5
